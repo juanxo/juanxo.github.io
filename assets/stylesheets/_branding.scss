@@ -1,0 +1,29 @@
+@import "base";
+
+.logo {
+  font-family: 'Open Sans', sans-serif;
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  @include non-selectable;
+
+  .slim {
+    font-weight: normal;
+    display: inline;
+  }
+
+  .bold {
+    font-weight: bolder;
+    display: inline;
+
+    -moz-transition: color $link-color-transition-duration;
+    -webkit-transition: color $link-color-transition-duration;
+    -o-transition: color $link-color-transition-duration;
+    transition: color $link-color-transition-duration;
+  }
+
+  &:hover .bold {
+    color: #c00;
+  }
+
+}

@@ -1,0 +1,35 @@
+// List of links to most of my online profiles
+@import "base";
+
+.me-links {
+  list-style: none;
+  text-align: center;
+  @include non-selectable;
+
+  li {
+    display: inline-block;
+    @include non-selectable;
+  }
+
+}
+
+.me-link {
+  background-position: left center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  line-height: 1;
+  margin: 0 16px;
+  color: #000;
+  text-decoration: none;
+
+  -moz-transition: color $link-color-transition-duration;
+  -webkit-transition: color $link-color-transition-duration;
+  -o-transition: color $link-color-transition-duration;
+  transition: color $link-color-transition-duration;
+
+  &:hover {
+    color: #c00;
+
+  }
+  @include non-selectable;
+}
