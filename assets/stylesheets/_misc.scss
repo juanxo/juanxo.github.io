@@ -1,9 +1,19 @@
 ::selection {
   background: #c00;
   color: #fff;
+  text-shadow: rgba(#fff, 0.3) 1px 1px;
 }
 
--moz-selection {
+::-moz-selection {
   background: #c00;
   color: #fff;
+  text-shadow: rgba(#fff, 0.3) 1px 1px;
+}
+
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
 }

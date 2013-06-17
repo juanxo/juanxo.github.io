@@ -5,3 +5,11 @@
   -o-user-select: none;
   user-select: none;
 }
+
+@mixin text-selectable {
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  -o-user-select: text;
+  user-select: text;
+}

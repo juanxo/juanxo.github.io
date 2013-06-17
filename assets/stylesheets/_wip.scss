@@ -1,0 +1,33 @@
+// Use this when you want to show that a page is still under construction.
+// It's composed of an image, an informative text, and a link back to home
+@import "base";
+
+
+.wip {
+  width: 960px;
+  margin: 60px auto 0 auto;
+  @include non-selectable;
+}
+
+.wip-image {
+  margin: 0 auto;
+  width: 292px;
+  height: 184px;
+  display: block;
+  background-color: #000;
+  @include non-selectable;
+}
+
+.wip-description {
+  font: 100 60px/1.5 'Lato', sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  @include text-selectable;
+
+}
+
+.wip-back-home {
+  text-align: center;
+  @include text-selectable;
+}

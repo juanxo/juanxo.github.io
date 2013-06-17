@@ -1,6 +1,12 @@
 // List of links to most of my online profiles
 @import "base";
 
+a {
+  color: #c00;
+  text-decoration: none;
+  font-weight: normal;
+}
+
 .me-links {
   list-style: none;
   text-align: center;
@@ -14,8 +20,6 @@
 }
 
 .me-link {
-  background-position: left center;
-  background-repeat: no-repeat;
   display: inline-block;
   line-height: 1;
   margin: 0 16px;
@@ -29,7 +33,5 @@
 
   &:hover {
     color: #c00;
-
   }
-  @include non-selectable;
 }
