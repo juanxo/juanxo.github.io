@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-  <title>Juan Guerrero - {{ page.title }}</title>
+  {% if page.title %}
+    <title>Juan Guerrero - {{ page.title | capitalize }}</title>
+  {% else %}
+    <title>Juan Guerrero</title>
+  {% endif %}
   <link rel="stylesheet" type="text/css" href="/css/normalize.css"/>
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="/fonts/ss-social-regular.css"/>
