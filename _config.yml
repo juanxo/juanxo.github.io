@@ -1,2 +1,3 @@
+markdown: redcarpet
 permalink: /posts/:year/:month/:day/:title
 pygments: true

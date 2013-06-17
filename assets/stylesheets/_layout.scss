@@ -11,9 +11,14 @@
 // Must be floated to the left to restrict
 // selection in the content box
 .content {
+  width: 960px;
   float: left;
+
+  @each $tag in ul, ol, p, '.highlight' {
+    #{$tag} {
+      padding: 0 70px;
+    }
+  }
+
 }
 
-.content p {
-  padding: 0 70px;
-}

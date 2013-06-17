@@ -16,3 +16,54 @@
 .project-link {
   margin-right: 35px;
 }
+
+.project-content img {
+  margin: 0 auto;
+  display: block;
+}
+
+.project-content h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+}
+
+.project-content {
+
+  @each $tag in ul, ol, p, '.highlight' {
+    #{$tag} {
+      padding: 0 70px;
+    }
+  }
+
+  ul, ol {
+    list-style-position: inside;
+  }
+
+  ul {
+    list-style-type: none;
+
+    // Add hyphen as list marker
+    li:before {
+      content: '-';
+      display: inline-block;
+      margin-left: -16px;
+      width: 16px;
+    }
+
+    li {
+      padding-left: 16px;
+    }
+  }
+}
+
+.project-content pre {
+  padding: 12px;
+  font-size: 13px;
+  font-family: 'Inconsolata', monospace;
+  border: 1px solid #c00;
+  border-color: rgba(#c00, 0.5);
+  overflow-x: auto;
+  white-space: pre;
+  border-radius: 3px;
+  background-color: #fcf9f9;
+}

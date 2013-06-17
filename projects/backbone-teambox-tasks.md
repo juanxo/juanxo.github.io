@@ -1,12 +1,12 @@
 ---
-  layout: default
+  layout: project
   title: Backbone Teambox Tasks
 ---
 # Backbone Teambox Tasks #
 
 <div class="project-links">
   <a class="project-link" href="https://github.com/Juanxo/backbone-teambox-tasks">GitHub Project</a>
-  <a class="project-link" href="https://github.com/Juanxo/backbone-teambox-tasks">Project Webpage</a>
+  <a class="project-link" href="https://teambox-tasks.herokuapp.com">Project Webpage</a>
 </div>
 
 This is your daily dose of todo applications made to learn Backbone.js, but with the twist of using
