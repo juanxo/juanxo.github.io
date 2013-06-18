@@ -10,13 +10,12 @@
 </div>
 
 This is your daily dose of todo applications made to learn Backbone.js, but with the twist of using
-an external API (teambox)
+an external API (teambox). You will need a Teambox account in order to try it.
 
 _Disclaimer: This isn't by any means at the same level of quality and polish that Teambox. If
 you are thinking about using a great project management tool, check [them](https://teambox.com)_
 
-<img class="screenshot" style="width: 787px; height: 821px;margin: 0 auto; display: block"
-    src="https://raw.github.com/Juanxo/backbone-teambox-tasks/master/screenshot.png" />
+![Screenshot](https://raw.github.com/Juanxo/backbone-teambox-tasks/master/screenshot.png)
 
 
 # Why #
