@@ -2,7 +2,7 @@
   layout: project
   title: CSS Rule Checker
 ---
-CSS RULE CHECKER
+Css Rule Checker
 ================
 
 <div class="project-links">
