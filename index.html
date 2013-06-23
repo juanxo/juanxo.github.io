@@ -2,3 +2,22 @@
 layout: default
 ---
 
+<p class="intro">
+Welcome to my blog! I'm Juan Guerrero, a young aspiring craftsman from the sunny Spain interested in
+Open Source, startups and new technologies and tools.
+</p>
+
+<p class="intro">
+You can see my <a href="/projects.html">projects</a>, check out my profiles across the internets or
+read about my adventures with my inseparable mates vim, tmux, zsh, ruby and js.
+</p>
+
+<ul class="posts">
+  {% for post in site.posts %}
+    <li class="post-item">
+      <span class="post-date">{{ post.date | date_to_string }}</span>
+      <i class="post-icon icon-angle-right"></i>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
