@@ -23,7 +23,9 @@ Usage
 
 Just call the desired script with the folder to process as a parameter:
 
-    $ ruby compress_png.rb myimagedir
+```
+$ ruby compress_png.rb myimagedir
+```
 
 And it will process the files while keeping you updated about the progress.
 
