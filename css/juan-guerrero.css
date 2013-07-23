@@ -75,7 +75,7 @@ a {
     color: #c00; }
 
 .logo {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   display: inline-block;
   text-decoration: none;
   color: #000;
@@ -101,7 +101,7 @@ a {
   list-style: none;
   text-transform: uppercase;
   padding: 0;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   font-weight: lighter; }
   .nav li {
     display: inline-block; }
@@ -134,7 +134,7 @@ a {
   user-select: none; }
 
 .wip-description {
-  font: 100 60px/1.5 "Lato", sans-serif;
+  font: 100 60px/1.5 'Lato', sans-serif;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 10px;
@@ -170,7 +170,7 @@ a {
   display: block; }
 
 .project-content h1 {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: normal; }
 
 .project-content ul {
@@ -196,8 +196,8 @@ a {
 .project-content pre {
   padding: 12px;
   font-size: 13px;
-  font-family: "Inconsolata", monospace;
-  border: 1px solid #cc0000;
+  font-family: 'Inconsolata', monospace;
+  border: 1px solid #c00;
   border-color: rgba(204, 0, 0, 0.5);
   overflow-x: auto;
   white-space: pre;
@@ -423,8 +423,10 @@ a {
   display: block; }
 
 .post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: normal; }
+.post-content h1 {
+  text-align: center; }
 
 .post-content ul, .post-content ol {
   list-style-position: inside; }
@@ -441,8 +443,8 @@ a {
 .post-content pre {
   padding: 12px;
   font-size: 13px;
-  font-family: "Inconsolata", monospace;
-  border: 1px solid #cc0000;
+  font-family: 'Inconsolata', monospace;
+  border: 1px solid #c00;
   border-color: rgba(204, 0, 0, 0.5);
   overflow-x: auto;
   white-space: pre;
@@ -453,10 +455,10 @@ a {
   display: inline-block;
   padding: 2px;
   font-size: 13px;
-  font-family: "Inconsolata", monospace;
+  font-family: 'Inconsolata', monospace;
   white-space: pre;
   background-color: #fcf9f9;
-  border: 1px solid #cc0000;
+  border: 1px solid #c00;
   border-color: rgba(204, 0, 0, 0.5);
   border-radius: 3px; }
 
