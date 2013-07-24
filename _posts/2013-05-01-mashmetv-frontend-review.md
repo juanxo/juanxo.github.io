@@ -18,14 +18,14 @@ href="https://twitter.com/VictorSanchez">@VictorSanchez</a></p>&mdash; Juan Guer
 
 You can read the review below:
 
-# Why? #
+## Why? ##
 
 As one of my passions is Web Performance, something I do whenever I apply for an open position is to
 review how well they are doing on the front end.
 
 This is a review of the landing page only, I keep other secrets for the Friday xD
 
-# Review #
+## Review ##
 
 MashMeTV front end is really pretty.
 
@@ -33,14 +33,14 @@ MashMeTV front end is really pretty.
 
 Wait, what? You wanted a real review? Maaan, you are so exigent, but ok, keep reading
 
-# Parts #
+## Parts ##
 
 1. Slider
 2. Image Size
 3. Too many scripts
 4. Many dns to resolve
 
-## 1. Slider ##
+### 1. Slider ###
 
 Currently, the worst offender are the slider and the images it contains.
 The logic that uses the slider is as follow:
@@ -117,7 +117,7 @@ Remove slide-active from the current image (after doing the fadeout effect)
 Add slide-active to the new image (after doing the fadein effect)
 ```
 
-## 2. Image Size ##
+### 2. Image Size ###
 
 As you can see on the [WebPageTest
 graphic](http://www.webpagetest.org/result/130501_0X_46W/1/details/), most components of the page
@@ -136,7 +136,7 @@ case.
 Also, all those images have transparent horizontal padding. I suppose it's to make easier to align
 them on the laptop graphic, but I don't know if they are necessary.
 
-## 3. Too Many Scripts ##
+### 3. Too Many Scripts ###
 
 MashMeTV is serving 15 different js files currently. This means 15 from the 44 requests are just js
 requests, or a 30%.
@@ -148,7 +148,7 @@ Also, browsers block the downloading process each time they find a script until 
 executed it, so putting them at ```<head>``` is a bad choice. As I haven't seen any issue, I would
 recommend moving them to the end of the body.
 
-## 4. Many DNS To Resolve ##
+### 4. Many DNS To Resolve ###
 
 An special issue with this page, not present in many other pages, is that it references resources
 from many different domains:
@@ -177,7 +177,7 @@ first resource with that domains, an operation that takes from 0.5 to 1 sec (The
     graph linked previously)
 To make it worse, most of that domains only have 1 request, so it's a huge payload upfront
 
-# Conclusion #
+## Conclusion ##
 
 There are other minor issues that could be applied (minifying all external dependencies, combining
     files, creating sprite images,etc), but overall, MashMeTV front end is in great shape.
