@@ -75,6 +75,7 @@ article even before the page loaded (well, actually I couldn't cause I wouldn't 
 yet, but you get the point)
 
 What to do to decrease that number? There are a couple of things that come to my mind:
+
 - Bundle all CSS and JS in one or two files: Depending on some factors, a number or another could be
   more beneficial( 2 scripts, one for external deps that doesn't change that often and another one for local scripts; 3 css links,
   one global, one per section and one per page specific content, reducing the size of the files too)
