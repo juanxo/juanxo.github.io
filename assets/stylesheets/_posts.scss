@@ -12,20 +12,18 @@
   padding-top: 2px;
 }
 
-.post-content {
-  margin-bottom: 20px;
-}
-
 .project-link {
   margin-right: 35px;
 }
 
-.post-content img {
-  margin: 0 auto;
-  display: block;
-}
-
 .post-content {
+  margin-bottom: 20px;
+
+  img {
+    margin: 0 auto;
+    display: block;
+  }
+
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
@@ -34,9 +32,6 @@
   h1 {
     text-align: center;
   }
-}
-
-.post-content {
 
   ul, ol {
     list-style-position: inside;
@@ -44,7 +39,6 @@
 
   ul {
     list-style-type: none;
-
     // Add hyphen as list marker
     li:before {
       content: '-';
@@ -57,31 +51,38 @@
       padding-left: 16px;
     }
   }
-}
 
-.post-content pre {
-  padding: 12px;
-  font-size: 13px;
-  font-family: 'Inconsolata', monospace;
-  border: 1px solid #c00;
-  border-color: rgba(#c00, 0.5);
-  overflow-x: auto;
-  white-space: pre;
-  border-radius: 3px;
-  background-color: #fcf9f9;
-}
+  pre {
+    padding: 12px;
+    font-size: 13px;
+    font-family: 'Inconsolata', monospace;
+    border: 1px solid #c00;
+    border-color: rgba(#c00, 0.5);
+    overflow-x: auto;
+    white-space: pre;
+    border-radius: 3px;
+    background-color: #fcf9f9;
+  }
 
-// Inline code
-.post-content p > code {
-  display: inline-block;
-  padding: 2px;
-  font-size: 13px;
-  font-family: 'Inconsolata', monospace;
-  white-space: pre;
-  background-color: #fcf9f9;
-  border: 1px solid #c00;
-  border-color: rgba(#c00, 0.5);
-  border-radius: 3px;
+  // Inline code
+  p > code {
+    display: inline-block;
+    padding: 2px;
+    font-size: 13px;
+    font-family: 'Inconsolata', monospace;
+    white-space: pre;
+    background-color: #fcf9f9;
+    border: 1px solid #c00;
+    border-color: rgba(#c00, 0.5);
+    border-radius: 3px;
+  }
+
+  .post-date {
+    text-align: right;
+    text-transform: uppercase;
+    display: block;
+    font-size: 15px;
+  }
 }
 
 // This should be moved to its own css
